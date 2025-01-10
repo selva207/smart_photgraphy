@@ -15,7 +15,6 @@ __pycache__/
 *.exe
 
 # Ignore IDE/editor configuration files
-.vscode/
 .idea/
 
 # Ignore OS-specific files

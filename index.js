@@ -14,6 +14,7 @@ app.use(express.static("./public"));
 
 app.use("/auth", require('./router/authroute'));
 app.use("/user", require('./router/userroute'));
+app.use("/banner", require('./router/bannerroute'));
 
 // Start the server
 app.listen(port, () => {
