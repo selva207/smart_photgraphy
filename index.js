@@ -17,6 +17,7 @@ app.use("/user", require('./router/userroute'));
 app.use("/banner", require('./router/bannerroute'));
 app.use("/album", require('./router/albumroute'));
 app.use("/aboutus", require('./router/about_usroute'));
+app.use("/our_team", require('./router/our_teamroute'));
 
 // Start the server
 app.listen(port, () => {
