@@ -20,6 +20,10 @@ const Album = sequelize.define('Album', {
     type: DataTypes.TEXT,
     allowNull: true,
   },
+  thumbnail: {
+    type: DataTypes.STRING,   // To store the path or URL of the thumbnail image
+    allowNull: true,
+  },
   delete_at: {
     type: DataTypes.INTEGER,
     defaultValue: 0, // Default not deleted

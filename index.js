@@ -15,10 +15,11 @@ app.use(express.static("./public"));
 app.use("/auth", require('./router/authroute'));
 app.use("/user", require('./router/userroute'));
 app.use("/banner", require('./router/bannerroute'));
+app.use("/album", require('./router/albumroute'));
 
 // Start the server
 app.listen(port, () => {
-  sequelize.sync({ alter: true })
+  sequelize.sync({  })
     .then(() => {
       console.log(`Server is running on http://localhost:${port}`);
     })

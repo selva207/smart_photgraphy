@@ -17,6 +17,9 @@ __pycache__/
 # Ignore IDE/editor configuration files
 .idea/
 
+# Ignore uploads
+uploads/
+
 # Ignore OS-specific files
 .DS_Store  # macOS
 Thumbs.db  # Windows
