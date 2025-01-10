@@ -19,6 +19,7 @@ app.use("/album", require('./router/albumroute'));
 app.use("/aboutus", require('./router/about_usroute'));
 app.use("/our_team", require('./router/our_teamroute'));
 app.use("/portfolio", require('./router/portfolioroute'));
+app.use("/blog", require('./router/blogroute'));
 
 
 // Start the server
