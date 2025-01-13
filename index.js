@@ -20,6 +20,8 @@ app.use("/aboutus", require('./router/about_usroute'));
 app.use("/our_team", require('./router/our_teamroute'));
 app.use("/portfolio", require('./router/portfolioroute'));
 app.use("/blog", require('./router/blogroute'));
+app.use("/gallery", require('./router/galleryroute'));
+
 
 
 // Start the server
